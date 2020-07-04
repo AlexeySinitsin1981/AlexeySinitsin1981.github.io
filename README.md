@@ -9,4 +9,4 @@ My works:
 
 
 
-[Tinyone](https://alexeysinitsin1981.github.io/Tinyone/ "написано на SASS с использованием сетки Bootstrap 4, адаптирован под все устройства, добавлен favicon и анимация")
+[Tinyone](https://alexeysinitsin1981.github.io/Tinyone/ "написано на SASS с использованием сетки Bootstrap 4, адаптирован под все устройства, добавлен favicon и анимация") - написано на SASS с использованием сетки Bootstrap 4, адаптирован под все устройства, добавлен favicon и анимация
