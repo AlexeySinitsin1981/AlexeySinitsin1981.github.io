@@ -1,0 +1,64 @@
+.reviews
+	height: 555px
+	h3 
+		display: block
+		position: relative
+		padding-top: 70px
+		font-size: 38px
+		line-height: 32px
+		color: #212121
+		font-weight: 700
+		text-align: center
+		&:before, &:after
+			content: ''
+			position: absolute
+			display: inline-block
+			top: 86%
+			width: 100px
+			height: 2px
+			background: #cccccc
+		&:before
+			left: 33%
+		&:after
+			right: 33%
+
+	&__inner 
+		position: relative
+		padding: 55px 0
+		text-align: center
+
+	&__items
+		text-align: center
+		img 
+			margin: 0 auto
+			padding-bottom: 28px
+		p 
+			width: 380px
+			height: 81px
+			margin: 0 0 30px 0
+			font-size: 14px
+			line-height: 22px
+			color: #757575
+			font-weight: 300
+			text-align: center
+			padding-left: 10px
+			padding-right: 10px
+
+	.slick-prev
+		position: absolute
+		top: 77%
+		left: 44%
+		transform: translateY(100%)
+		border: none
+		background-color: #fff
+		outline: none
+
+	.slick-next
+		position: absolute
+		top: 77%
+		left: 50%
+		transform: translateY(100%)
+		border: none
+		background-color: #fff
+		outline: none
+

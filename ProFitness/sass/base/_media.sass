@@ -1,0 +1,310 @@
+@media screen and (max-width: 1200px)
+	.services, .trainer, .reviews
+		h3
+			&:before 
+				left: 30%
+			&:after 
+				right: 30%	
+	.about
+		h3
+			&:before 
+				left: 32%
+			&:after 
+				right: 32%	
+	.reviews__items p
+	    width: 325px
+	    height: 115px
+	
+	.footer__info
+		justify-content: flex-end
+	.footer__schedule
+		margin-left: 17px
+
+
+@media screen and (max-width: 1024px)
+	.services, .trainer, .reviews
+		h3
+			&:before 
+				left: 28%
+			&:after 
+				right: 28%	
+	.about
+		h3
+			&:before 
+				left: 32%
+			&:after 
+				right: 32%	
+	.reviews__items p
+	    width: 325px
+	    height: 115px
+	
+	.footer__info
+		justify-content: flex-end
+	.footer__schedule
+		margin-left: 17px
+
+@media screen and (max-width: 992px)
+	.header
+		&__info
+
+		&__links
+			display: none
+		&__item
+			font-size: 11px
+	.navigation 
+	 	ul 
+	 		padding-left: 0
+	 		li
+	 			margin-left: 40px
+
+	.services
+		&__item
+			width: 25%
+		&__overlay
+			h5
+				font-size: 20px
+			div
+				width: 80%
+			button
+				width: 150px
+		&__subtitle
+			h4
+				font-size: 19px
+
+
+	.services, .trainer, .reviews
+		h3
+			&:before 
+				left: 22%
+			&:after 
+				right: 22%	
+	.about
+		h3
+			&:before 
+				left: 24%
+			&:after 
+				right: 24%	
+		&__video
+			video 
+				width: 650px
+
+	.trainer 
+		&__item
+			img 
+				width: 120px
+		&__text
+			font-size: 13px
+
+	.reviews
+
+		&__items p
+	    	width: 258px
+    		height: 137px
+
+		.slick-prev
+			left: 41%
+		.slick-next
+			left: 53%
+
+	.footer 
+		&__info
+			width: 580px
+		&__social
+			p 
+				width: 245px
+
+@media screen and (max-width: 768px)
+	.header 
+		display: none
+	.navigation 
+		.container 
+			flex-wrap: wrap
+		&__logo
+			display: block
+			margin: 0 auto
+			width: 128px
+		&__list
+			ul 
+				li 
+					margin: 0 15px 0 15px
+
+	.services, .trainer, .reviews
+		h3
+			&:before 
+				left: 13%
+			&:after 
+				right: 13%	
+	.services
+		height: 100%
+		&__wrapper
+			flex-wrap: wrap 
+		&__item 
+			width: 70%
+
+	.about
+		p 
+			width: 100%
+		h3
+			&:before 
+				left: 17%
+			&:after 
+				right: 17%	
+		&__video
+			video 
+				width: 100%
+				height: 100%
+		&__items
+			flex-wrap: wrap 
+			padding-top: 0
+		&__item 
+			img 
+				margin-top: 30px	
+	.trainer 
+		height: 100%
+		&__team 
+			flex-wrap: wrap 
+		&__item 
+			padding-top: 30px
+	.action 
+		h2 
+			padding-top: 125px		
+		&__items p
+	    	width: 270px
+    		height: 137px
+    		margin-bottom: 10px
+	.reviews
+		&__inner
+			.slick-dots
+				display: flex
+				justify-content: center
+				li 
+					list-style: none
+					margin: 0 5px
+
+				button 
+					font-size: 0
+					width: 10px
+					height: 14px
+					background-color: grey
+					border-radius: 50px
+					border: none
+					outline: none
+			.slick-active
+				button 
+					background-color: black
+	.footer 
+		height: 100%
+		.container 
+			flex-wrap: wrap
+		&__social 
+			display: block
+			margin: 0 auto
+			width: 240px
+			p 
+				text-align: center
+		&__logo
+			img 
+				display: block
+				margin: 0 auto
+		&__links
+			text-align: center
+			a 
+				margin-right: 0
+		&__info 
+			justify-content: center
+
+@media screen and (max-width: 576px)
+	.container 
+		width: 100%
+	.navigation 
+		height: 100%
+		&__list 
+			margin: 0 auto
+			margin-top: 10px
+			ul 
+				flex-direction: column 
+			li 
+				text-align: center
+				a 
+					&:hover
+						text-decoration: none
+						color: #fe5621
+		&__logo
+			width: 100%
+			img 
+				display: block
+				margin: 0 auto
+
+	.promo 
+		&__wrapper
+			width: 100%
+			h1 
+				font-size: 43px
+		&__text
+			font-size: 16px
+		&__title
+			padding-top: 190px
+
+	.services, .trainer, .reviews
+		h3
+			&:before 
+				display: none
+			&:after 
+				display: none
+	.about
+		height: 100%
+		p 
+			width: 100%
+		h3
+			&:before 
+				display: none
+			&:after 
+				display: none
+		&__video
+			video 
+				width: 90%
+				height: 100%
+	.trainer 
+		&__item
+			width: 100%
+	.action 
+		h2
+			font-size: 30px
+
+	.reviews 
+		height: 100%
+		&__items
+			p 
+				display: block
+				margin: 0 auto
+				width: 100%
+	.mailing 
+		h2 
+			padding-top: 90px
+		p 
+			width: 100%
+		&__btn
+			margin-top: 20px
+
+	.footer 
+		&__info 
+			flex-direction: column 
+		&__menu, &__contacts, &__schedule
+			margin: 0 auto
+			text-align: center
+
+
+
+
+
+
+
+			
+
+
+
+
+
+
+		
+

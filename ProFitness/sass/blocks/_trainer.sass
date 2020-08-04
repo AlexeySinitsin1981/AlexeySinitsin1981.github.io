@@ -1,0 +1,53 @@
+.trainer 
+	height: 555px
+	h3 
+		display: block
+		position: relative
+		padding-top: 70px
+		font-size: 38px
+		line-height: 32px
+		color: #212121
+		font-weight: 700
+		text-align: center
+		&:before, &:after
+			content: ''
+			position: absolute
+			display: inline-block
+			top: 86%
+			width: 100px
+			height: 2px
+			background: #cccccc
+		&:before
+			left: 33%
+		&:after
+			right: 33%
+
+	&__team
+		display: flex
+		justify-content: space-between
+		padding-top: 60px
+
+	&__item
+		width: 224px
+		text-align: center
+		img
+			border-radius: 50%
+		h4
+			padding-top: 25px
+		&:hover img
+			box-shadow: 1px 3px 30px #fe5621
+		&:hover h4
+			color: #fe5621
+
+			
+
+	&__undertitle
+		font-size: 15px
+		line-height: 32px
+		color: #212121
+		font-weight: 400
+	&__text
+		font-size: 14px
+		line-height: 20px
+		color: #757575
+		font-weight: 300

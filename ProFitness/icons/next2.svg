@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50" height="50">
+	<defs>
+		<image width="50" height="50" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMAAAAp4XiDAAAAAXNSR0IB2cksfwAAAOFQTFRFAAAA/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/FQg+1Qg+1Qg91Ag+lUg/VUh/VUh+1Ug/FMg/VUh/VUh/FQg71Ag/VUh/VUh/VUh/FUg/VQg/VUh/VUh/VUh/VUg/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VQg/VUh/FUg/VUh/VUh/VUg/VUg/VUg/FUg/VUh/FQg/VQg+1UgbJM2FAAAAEt0Uk5TACFcjbbV7PwogdH/P67wsIBAIDAippBQaPigEGeZCWBwCL+30JybbWwqsbBOTb47lpXn5jc2cKDHxuL1tVvvpa/3mM/fb5/+T38/8BvKqgAAAfdJREFUeJyVlntjGUEUxS/W8zBrSQhCVNOECCKKoh2btNXE9/9AvYvErn2YOX/MztydH3ceO2eIfIrFE0YylU6nkkYiHvO/P1Umm4NHuWwmEsgXuJMwi5ZVIipbVtF0qEI+FLi45P6VqjdYrQjgMiS/qxpQb/jjjTpQuw4imoBZCv6xEufX9EVbBnATmjK1AePLCdGBsMIJHpJAp+WJfMVtOYrg+buF4W5/gzhDMCNwd2zdA5FZHXIDuh/1XuTIj+I56B2qDzBVCCIT/X3lEQhZj1OVgMGu0kFdjSCqY+g8RhABuyRYDYERP55QUSWcvxlz+Yzq2Z6fqmJC9B1CnSACpjRTneG9TMxojrYOUsScfqjslaMsLGipiyxppbr0e5Wx4inQIZwpo7QukqaUbmIpSuoOP0mGLvKTErpLmaC47ob5RTFIHQTg4zmnt/lzXGb1PrEslxlI9Q9ZYmdQBZ3jorB75nUOpYOhrWGrITbWh1qspracbbx8GuC16jHusr8m5HmzkHh1tw38PmdJf3hDusXGJ6ONT6JzapbR9vqX7bXli94BdpiJ23Cb3lFdvntsgq4KG+Bf1x931OsDcvPmDb5tJNDvBROswdC55tjv2y3PX3m7fbed9nAQCjgajSfey9VkPIoEdprO5ovlClgtF/PZ1P/+PwdWKQ5+rVTWAAAAAElFTkSuQmCC"/>
+		<image width="12" height="20" id="img2" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAUCAMAAACOLiwjAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAH5QTFRF/VUh/VUh/VUh/VUhAAAA/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh/VUh1mnswAAAACp0Uk5TVd+qAwDl/68ItA2kuRGfvRaZwhqUxx+OzCOI0CiCxo3Lkx6YnhW4qbMMrL8WAwAAAHZJREFUeJxtz9kSgjAMBdCCIcguguyroOL//6DpeBn6QJ9yJpn0RinLvhCecpjd6w6bmT0foEAURgDFouQGUCq6ZwDlokcBUCmqaoAaUdsB1OueieFkbJR6woJZzzz/qxfj01XHeR1B3wj6kXr74gTLPE45x9k/neAHsWQuiMYAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" href="#img1" x="0" y="0" />
+	<use id="http___www" href="#img2" transform="matrix(1,0,0,1,18,14)"/>
+</svg>
